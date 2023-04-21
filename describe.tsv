@@ -1,0 +1,27 @@
+Column Name	Description	Data Type
+FIRE_ID	A unique identifier assigned to each fire	Object
+Fire Name	Unique name given to the fire	Object
+Acres   Total number of acres burned by the fire	Float64
+Date	Date when the fire was first ignited	Object
+Fire Type	Represents the type of the fire. It can take values like "Wildfire", "Prescribed Fire", or "Human-caused"	Object
+LATITUDE	Latitude of the location. Ranges from -90 to 90	Float64
+LONGITUDE	Longitude of the location. Ranges from -180 to 180	Float64
+time	Date when the fire was first ignited	Object
+weathercode	The most severe weather condition on a given day (WMO code)	Int64
+temperature_2m_max	Maximum daily air temperature at 2 meters above ground (°C)	Float64
+temperature_2m_min	Minimum daily air temperature at 2 meters above ground (°C)	Float64
+temperature_2m_mean	Mean daily air temperature at 2 meters above ground (°C)	Float64
+apparent_temperature_max	Maximum and minimum daily apparent temperature. Apparent temperature, also known as feels like, is the temperature equivalent perceived by humans, caused by the combined effects of air temperature, relative humidity and wind speed (°C)	Float64
+apparent_temperature_min	Minimum daily apparent temperature (°C)	Float64
+apparent_temperature_mean	Mean daily apparent temperature (°C)	Float64
+sunrise	Sun rise time (iso8601)	Object
+sunset	Sun set time (iso8601)	Object
+shortwave_radiation_sum	The sum of solar radiation on a given day in Megajoules (MJ/m²)	Float64
+precipitation_sum	Sum of daily precipitation, including rain, showers and snowfall (mm)	Float64
+rain_sum	Sum of daily rain (mm)	Float64
+snowfall_sum	Sum of daily snowfall (mm)	Float64
+precipitation_hours	The number of hours with rain (hours)	Float64
+windspeed_10m_max	Maximum wind speed on a day (km/h)	Float64
+windgusts_10m_max	Maximum wind gusts on a day (km/h)	Float64
+winddirection_10m_dominant	Dominant wind direction (°)	Int64
+et0_fao_evapotranspiration	Daily sum of ET₀ Reference Evapotranspiration of a well watered grass field (mm)	Float64
